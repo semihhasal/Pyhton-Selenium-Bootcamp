@@ -38,3 +38,22 @@
 
 #else:
 #   print("Yanlis Sifre Girdiniz")
+
+
+
+
+#PyTestDecorators
+
+ # (@pytest.fixture: Bu dekoratör, test fonksiyonlarının ihtiyaç duydukları bağımlılıkları ayarlamak için kullanılır. Örneğin, bir test fonksiyonunun bir veritabanı bağlantısına ihtiyacı varsa, bu bağımlılığı @pytest.fixture ile bir bağımlılık olarak tanımlayabilirsiniz.)
+
+ # (@pytest.mark.parametrize: Bu dekoratör, aynı test fonksiyonunu farklı parametrelerle çalıştırmak için kullanılır. Örneğin, bir fonksiyonun farklı giriş değerlerini test etmek istiyorsanız, @pytest.mark.parametrize kullanarak bu değerleri belirleyebilirsiniz.)
+
+ # (@pytest.mark.skip: Bu dekoratör, belirli bir testin çalıştırılmasını atlamak için kullanılır. Örneğin, bir test henüz tamamlanmadıysa veya hatalar içeriyorsa, bu testi atlamak için @pytest.mark.skip kullanabilirsiniz.)
+
+
+ # (@pytest.mark.xfail: Bu dekoratör, bir testin başarısız olması beklenen durumlarda kullanılır. Örneğin, bir testin bir hata döndürmesi bekleniyorsa, bu testi @pytest.mark.xfail ile işaretleyebilirsiniz.)
+
+ # ()
+ # (@pytest.mark.timeout: Bu dekoratör, bir testin belirli bir zaman sınırı içinde tamamlanmasını sağlar. Örneğin, bir testin 5 saniye içinde tamamlanması gerekiyorsa, @pytest.mark.timeout&#40;5&#41; kullanarak bu sınırı belirleyebilirsiniz.)
+
+ # ()
